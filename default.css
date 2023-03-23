@@ -4,7 +4,11 @@ body{
 }
 
 p{
-    font-family: Patua+One;
+    font-family: "Patua One";
     font-size: 18px;
     color: blueviolet;
+}
+
+#pic1{
+    position: absolute; top: 75px; left: 450px;
 }
