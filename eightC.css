@@ -1,11 +1,12 @@
 body{
     background-image: linear-gradient(
     to right,
-    rgb(194, 73, 73) 0%,
-    rgb(194, 73, 73) 38%,
-    rgb(245, 244, 211) 38%,
-    rgb(245, 244, 211) 100%
-  );
+    rgb(245, 244, 211) 0px,
+    rgb(245, 244, 211) 550px,
+    rgb(194, 73, 73) 550px,
+    rgb(194, 73, 73) 2000px
+  )
+  ;
     /*background-size: cover;*/
     
 }
@@ -19,8 +20,8 @@ h1{
 h1{
   font-family: 'Edu NSW ACT Foundation', cursive;
   font-size: 43px;
-  color: rgb(245, 244, 211);
-  text-shadow: -5px 2px 2px rgb(97, 37, 37);
+  color: rgb(194, 73, 73);
+  text-shadow: -2px 2px 2px rgb(139, 47, 47);
 }
 
 p{
@@ -35,26 +36,26 @@ p{
   }
 
   .images{
-    margin-left:9%;
-    margin-bottom: 2%;
+    margin-left:50px;
+    margin-bottom: 15px;
   }
 
   .row {
-    width: 100%;
+    width: 2000px;
   }
 
     /* Set width length for the left, right and middle columns */
     .column1 {
-    width: 37%;
+    width: 525px;
     float: left;
-    margin-left: 1%;
+    margin-left: 10px;
     }
 
     .column2 {
-    width: 61%;
+    width: 525px;
     float: left;
-    margin-top: 2%;
-    margin-left: 1%;
+    margin-top: 20px;
+    margin-left: 10px;
     }
 
     a{
