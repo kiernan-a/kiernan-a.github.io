@@ -207,7 +207,8 @@ Mom IsThat
 (display:&quot;MomImages&quot;)
 
 &lt;div id=&#39;choices&#39;&gt;(css: &quot;color: #405DE6&quot;)[[home]]	[[search]]	[[profile]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="16" name="MomImages" tags="" position="1550,500" size="100,100">(link: &quot;&lt;img class=&#39;image&#39; src=&#39;http://kiernan-a.github.io/soccer.png&#39;&gt;&quot;)[(go-to: &quot;soccer&quot;)] </tw-passagedata><tw-passagedata pid="17" name="MomFollows" tags="" position="1300,500" size="100,100"></tw-passagedata><tw-passagedata pid="18" name="MomFollowing" tags="instagram" position="1425,500" size="100,100">[[@who.is.that-&gt;who.is.that]] </tw-passagedata><tw-passagedata pid="19" name="KiernanImages" tags="" position="1550,75" size="100,100">&lt;img class=&quot;image&quot; src=&#39;http://kiernan-a.github.io/insta1.png&#39;&gt; &lt;img class=&quot;image&quot; src=&#39;http://kiernan-a.github.io/insta2.png&#39;&gt;  &lt;img class=&quot;image&quot; src=&#39;http://kiernan-a.github.io/insta3.png&#39;&gt; 
- (link: &quot;&lt;img class=&#39;image&#39; src=&#39;http://kiernan-a.github.io/insta4.png&#39;&gt;&quot;)[(go-to: &quot;tagged&quot;)] </tw-passagedata><tw-passagedata pid="20" name="tagged" tags="instagram" position="1400,200" size="100,100">(set: $tagged_thought = (count: (history: ), &quot;tagged_thought&quot;))(set: $kiernan_thought = (count: (history: ), &quot;kiernan_thought&quot;))(link: &quot;kiernan.almand&quot;)[(if: $kiernan_thought &gt; 0)[(go-to:&quot;kiernan.almand&quot;)](else:)[(go-to:&quot;kiernan_thought&quot;)]]
+ (link: &quot;&lt;img class=&#39;image&#39; src=&#39;http://kiernan-a.github.io/insta4.png&#39;&gt;&quot;)[(go-to: &quot;tagged&quot;)] </tw-passagedata><tw-passagedata pid="20" name="tagged" tags="instagram" position="1400,200" size="100,100">(set: $comment_thought = (count: (history: ), &quot;comment_thought&quot;))(set: $kiernan_thought = (count: (history: ), &quot;kiernan_thought&quot;))
+(link: &quot;kiernan.almand&quot;)[(if: $kiernan_thought &gt; 0)[(go-to:&quot;kiernan.almand&quot;)](else:)[(go-to:&quot;kiernan_thought&quot;)]]
 &lt;img center src=&#39;http://kiernan-a.github.io/insta4.png&#39; width=&#39;500&#39; height=&#39;500&#39;&gt;
 &#39;&#39;Likes:&#39;&#39; 523
 &#39;&#39;@kiernan.almand &#39;&#39;sushi conneissoirs
@@ -243,14 +244,14 @@ Who even is this girl? They are probably just friends, right?
 
 But they were eating sushi in the photo! Sushi is romantic, right?
 
-Maybe it isn&#39;t. Do you think she can even use chopsticks? (css: &quot;color: #FF1493&quot;)[[I can use chopsticks...-&gt;kiernan.almand]]</tw-passagedata><tw-passagedata pid="31" name="soccer" tags="instagram" position="1100,650" size="100,100">(set: $tagged_thought = (count: (history: ), &quot;mom_thought&quot;))(link: &quot;MomIsThat&quot;)[(if: $mom_thought &gt; 0)[(go-to:&quot;@MomIsThat&quot;)](else:)[(go-to:&quot;mom_thought&quot;)]]
+Maybe it isn&#39;t. Do you think she can even use chopsticks? (css: &quot;color: #FF1493&quot;)[[I can use chopsticks...-&gt;kiernan.almand]]</tw-passagedata><tw-passagedata pid="31" name="soccer" tags="instagram" position="1100,650" size="100,100">(set: $mom_thought = (count: (history: ), &quot;mom_thought&quot;))(link: &quot;MomIsThat&quot;)[(if: $mom_thought &gt; 0)[(go-to:&quot;@MomIsThat&quot;)](else:)[(go-to:&quot;mom_thought&quot;)]]
 &lt;img center src=&#39;http://kiernan-a.github.io/soccer.png&#39; width=&#39;500&#39; height=&#39;500&#39;&gt;
 [[&#39;&#39;Likes:&#39;&#39;]] $likes
 &#39;&#39;@MomIsThat &#39;&#39;Happy #ThrowbackThursday to when [[@who.is.that-&gt;who.is.that]]  just started playing soccer!
 
 
 &#39;&#39;Comments:&#39;&#39;
-(link: &quot;@who.is.that&quot;)[(if: $comment_thought &gt; 0)[(go-to:&quot;who.is.that&quot;)](else:)[(go-to:&quot;comment_thought&quot;)]]: &quot;Lol!&quot;
+[[@who.is.that-&gt;who.is.that]]: &quot;Lol!&quot;
 
 September 08, 2022
 
